@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Beautiful Girl</title>
+
+<style>
+body{
+  margin:0;
+  font-family:'Segoe UI',sans-serif;
+  background:linear-gradient(135deg,#000000,#ff2f92);
+  color:white;
+  text-align:center;
+  overflow-x:hidden;
+}
+
+nav{
+  background:#000;
+  padding:15px;
+  position:sticky;
+  top:0;
+}
+
+nav a{
+  color:#ff9bd2;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:bold;
+  cursor:pointer;
+  font-size:18px;
+}
+
+nav a:hover{
+  color:white;
+}
+
+.section{
+  display:none;
+  padding:80px 20px;
+  min-height:80vh;
+}
+
+.active{
+  display:block;
+}
+
+h1{
+  font-size:48px;
+}
+
+p{
+  font-size:18px;
+}
+
+.heart{
+  font-size:70px;
+  animation:beat 1s infinite;
+}
+
+@keyframes beat{
+  0%{transform:scale(1);} 
+  50%{transform:scale(1.25);} 
+  100%{transform:scale(1);} 
+}
+
+button{
+  background:#ff2f92;
+  border:none;
+  padding:15px 30px;
+  color:white;
+  font-size:18px;
+  border-radius:30px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#ff0a78;
+}
+
+.gallery img{
+  width:230px;
+  margin:12px;
+  border-radius:15px;
+  box-shadow:0 0 15px rgba(255,0,120,0.5);
+}
+
+footer{
+  padding:25px;
+  background:black;
+  color:#ff9bd2;
+}
+
+.story{
+  max-width:700px;
+  margin:auto;
+  line-height:1.7;
+}
+
+/* HEART RAIN */
+.heartRain{
+  position:fixed;
+  top:-10px;
+  font-size:20px;
+  animation:fall linear forwards;
+}
+
+@keyframes fall{
+  to{transform:translateY(110vh);} 
+}
+
+/* LETTER */
+.letter{
+  max-width:600px;
+  margin:auto;
+  background:rgba(255,255,255,0.1);
+  padding:30px;
+  border-radius:15px;
+  backdrop-filter:blur(6px);
+}
+
+/* LOVE METER */
+.meter{
+  width:300px;
+  height:25px;
+  background:#333;
+  margin:20px auto;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.meter-fill{
+  height:100%;
+  width:0%;
+  background:#ff2f92;
+  transition:2s;
+}
+
+.bigLove{
+  font-size:40px;
+  margin-top:20px;
+}
+
+</style>
+</head>
+<body>
+
+<audio autoplay loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<nav>
+<a onclick="showSection('home')">Home</a>
+<a onclick="showSection('message')">Message</a>
+<a onclick="showSection('story')">Our Story</a>
+<a onclick="showSection('gallery')">Memories</a>
+<a onclick="showSection('letter')">Love Letter</a>
+<a onclick="showSection('surprise')">Final Surprise</a>
+</nav>
+
+<div id="home" class="section active">
+<h1>Happy Birthday Rani Nisabilla🎂❤️</h1>
+<div class="heart">❤</div>
+<p>You are the best thing that ever happened in my life.</p>
+<p id="countdown"></p>
+</div>
+
+<div id="message" class="section">
+<h1>For You</h1>
+
+<p class="story">
+Happy Birthday to the most beautiful girl in my life.
+
+Hari ini, 20 Maret 2026, jadi hari yang paling spesial karena di hari ini lahir seseorang yang sangat berarti buat aku.
+  Seseorang yang kehadirannya bisa bikin hari-hari aku jadi lebih berwarna, lebih semangat, dan lebih bahagia.
+  
+<p class="story">
+Aku cuma mau bilang terima kasih karena kamu sudah ada di hidup aku sampai sekarang. Terima kasih sudah jadi orang yang selalu sabar, selalu kuat,
+  dan selalu berusaha menjalani semuanya dengan baik. Aku tahu kuliah itu nggak selalu gampang, kadang capek, kadang pusing sama tugas, kadang juga bikin stres.
+  Tapi aku selalu kagum sama kamu yang tetap berusaha, tetap semangat, dan nggak gampang nyerah. Perjuangan kamu dari sakit bisa sambil ngerjain tugas kamu,
+  di paksa sampe cape capenya. Aku bangga banget sama kamu.
+</p>
+  
+<p class="story">
+Di ulang tahun kamu yang sekarang ini, aku doain semoga kamu selalu diberi kesehatan, kebahagiaan, dan hati yang selalu tenang.
+  Semoga semua yang lagi kamu perjuangin di kuliah dimudahkan, tugas-tugasnya lancar, ujiannya dilancarin,
+  dan semua impian kamu pelan-pelan bisa tercapai. Aku juga doa semoga kamu selalu dikelilingi orang-orang baik yang sayang sama kamu.
+</p>
+  
+<p class="story">
+Semoga di umur kamu yang baru ini kamu bisa jadi pribadi yang makin kuat, makin dewasa, tapi tetap jadi kamu yang aku kenal: yang baik, yang perhatian, yang lucu juga,
+  pokoknya seru kalo sama kamu terus heheee. Jangan pernah ragu sama diri kamu sendiri ya, karena kamu itu jauh lebih hebat dari yang kamu pikir.
+</p>
+  
+<p class="story">
+Aku juga berharap semoga hubungan kita selalu dijaga, selalu diberi kebahagiaan, 
+  dan kita bisa terus jalan bareng ke depan. Lewatin banyak hal sama-sama, saling dukung, saling jagain, dan saling menguatkan.
+  Semoga bisa cepet ketemu lagi yaa, hehee
+</p>
+  
+<p class="story">
+Sekali lagi selamat ulang tahun ya bubub. Semoga hari kamu hari ini penuh senyum, penuh kebahagiaan, dan penuh hal-hal baik.
+  Jangan lupa bahagia terus ya, karena senyum kamu itu salah satu hal yang paling aku suka.
+</p>
+  
+<p class="story">
+Aku disini selalu doain yang terbaik buat kamu, selalu support kamu terus disini yaa.
+</p> 
+  
+<p class="story">
+Thank you for coming into my world and filling it with happiness, laughter, and love.
+ Every moment with you is something I will always treasure.
+  </p>
+
+</div>
+
+<div id="story" class="section">
+<h1>Our Love Story</h1>
+
+<p class="story">
+The day I met you was the day my life changed.
+
+At first, we were just two strangers who met on Roblox,
+but slowly, you became someone very special to me.
+
+Your smile brightens my darkest days.
+
+Your voice is my favorite sound.
+
+And today, I just want you to know,
+meeting you is the best gift life has ever given me.
+</p>
+
+</div>
+
+<div id="gallery" class="section">
+<h1>Our Memories</h1>
+
+<div class="gallery">
+<img src="Image1.jpeg">
+<img src="Image2.jpeg">
+<img src="Image3.jpeg">
+<img src="Image4.jpeg">
+<img src="Image5.jpeg">
+<img src="Image6.jpeg">
+<img src="Image7.jpeg">
+<img src="Music1.mp3">
+</div>
+
+<p>Our Firts Meet.</p>
+
+</div>
+
+<div id="letter" class="section">
+<h1>Open My Love Letter</h1>
+
+<button onclick="openLetter()">Open Letter ❤</button>
+
+<div class="letter" id="letterText" style="display:none; margin-top:30px;">
+
+<p>
+Hi bubb,
+
+On this special day I just want to remind you how important you are to me.
+
+You are my happiness, my comfort, and my favorite person in the world.
+No matter what happens in life, I promise I will always care for you and stand by your side.
+
+Thank you for being part of my life.
+
+Happy Birthday, my love.
+
+❤
+</p>
+
+</div>
+
+</div>
+
+<div id="surprise" class="section">
+<h1>One Last Thing</h1>
+
+<p>Click the button to see how much I love you</p>
+
+<button onclick="showMeter()">Reveal ❤</button>
+
+<div class="meter">
+<div class="meter-fill" id="loveFill"></div>
+</div>
+
+<div class="bigLove" id="loveResult"></div>
+
+</div>
+
+<footer>
+Made with ❤ just for you
+</footer>
+
+<script>
+
+function showSection(sectionId){
+  const sections=document.querySelectorAll('.section');
+  sections.forEach(sec=>sec.classList.remove('active'));
+  document.getElementById(sectionId).classList.add('active');
+}
+
+/* letter */
+function openLetter(){
+  document.getElementById("letterText").style.display="block";
+}
+
+/* love meter */
+function showMeter(){
+  const fill=document.getElementById("loveFill");
+  fill.style.width="100%";
+
+  setTimeout(()=>{
+    document.getElementById("loveResult").innerText="1000000% LOVE FOR YOU ❤";
+  },2000);
+}
+
+/* heart rain */
+setInterval(()=>{
+  const heart=document.createElement("div");
+  heart.classList.add("heartRain");
+  heart.innerText="❤";
+  heart.style.left=Math.random()*100+"vw";
+  heart.style.animationDuration=(3+Math.random()*2)+"s";
+  document.body.appendChild(heart);
+
+  setTimeout(()=>{
+    heart.remove();
+  },5000);
+
+},300);
+
+/* countdown */
+const birthday = new Date("December 31, 2026 00:00:00").getTime();
+
+setInterval(()=>{
+
+const now = new Date().getTime();
+const distance = birthday - now;
+
+const days = Math.floor(distance/(1000*60*60*24));
+const hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+
+if(distance>0){
+ document.getElementById("countdown").innerHTML="Next birthday in: "+365+" days "+23+" hours";
+}else{
+ document.getElementById("countdown").innerHTML="Today is your special day ❤";
+}
+
+},1000);
+
+</script>
+
+</body>
+</html>
